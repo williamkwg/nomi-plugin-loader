@@ -1,8 +1,8 @@
 {
   "name": "nomi-plugin-loader",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "the plugin loader module for nomi framework",
-  "main": "./libs/PluginLoader.js",
+  "main": "./lib/PluginLoader.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
