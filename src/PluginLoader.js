@@ -36,6 +36,7 @@ export default class PluginLoader {
     try {
       console.log(`get plugin instance by new `);
       if (!!arg.length) {
+        arg.push(config.options);
         pluginInstance = new pluginClass(...arg); // use arguments to new the plugin instance
       } else {
         pluginInstance = new pluginClass(config.options); // use options to new the plugin instance
